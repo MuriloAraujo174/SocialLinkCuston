@@ -43,7 +43,7 @@ h1 {
 .paragraTopBar {
     text-align: center;
     color: var(--profileDescriptionText);
-    font-size: 14px;
+    font-size: 10px;
     font-family: "Playwrite CU", cursive;
     text-transform: capitalize;
 }
