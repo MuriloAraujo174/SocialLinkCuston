@@ -24,7 +24,7 @@ html, body {
 }
 
 html {
-    background-image: url("../img/backgroundImgmarca.jpg");
+    background: linear-gradient(45deg, #72eb96, #fff, #ff69b4);
 }
 
 #containerHeader {
