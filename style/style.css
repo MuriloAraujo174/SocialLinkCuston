@@ -75,6 +75,34 @@ ul li {
     margin: 5px;    
 }
 
+.iconWhatsapp1::before {
+    content: url("../assets/whatsapp.svg");
+    float: left;
+}
+
+.iconWhatsapp2::before {
+    content: url("../assets/whatsapp.svg");
+    float: left;
+    padding-top: 15px;
+}
+
+.iconWhatsapp3::before {
+    content: url("../assets/whatsapp.svg");
+    float: left;
+    padding-top: 8px;
+} 
+
+.correios::before {
+    content: url("../assets/trunk.svg");
+    float: left;
+}
+
+.iconSite::before {
+    content: url("../assets/cart.svg");
+    float: left;
+}
+
+
 ul a {
     text-decoration: none;
     color: #F90E84;
