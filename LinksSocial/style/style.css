@@ -14,27 +14,17 @@
     --tema-cor-2: #72eb96;
     --tema-cor-3: #fff;
     --cor-reflexo: rgba(255, 255, 255, 0.4);
-    --cores-dancantes: rgb(76, 217, 105), rgb(52, 170, 220), rgb(88, 86, 217), brgb(255, 45, 83);
+    --cores-dancantes: #c93384, #c44f9e, #ff69b4, brgb(255, 255, 255);
+    --profileDescriptionText: #F90E84;
 }
 
 html, body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
-    background-size: 300% 300%;
-    animation: color 12s ease-in-out infinite;
 }
 
-@keyframes color {
-    0% {
-        background-position: 0 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0 50%;
-    }
+html {
+    background-image: url("../img/backgroundImgmarca.jpg");
 }
 
 #containerHeader {
@@ -48,18 +38,35 @@ h1 {
     text-align: center;
 }
 
+.paragraTopBar {
+    text-align: center;
+    color: var(--profileDescriptionText);
+    font-size: 14px;
+}
+
 .conteudo {
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, .37);
+    padding: 10px;
+}
+
+/* .conteudo {
     background: linear-gradient(to right, var(--cores-dancantes));
     position: relative;
     z-index: 999;
     animation: coresDancantes 2s linear infinite;
-}
+} */
 
-@keyframes coresDancantes {
+/* @keyframes coresDancantes {
     100% {
         filter: hue-rotate(360deg);
     }
-}
+} */
 
 #containerMain {
     max-width: 300px;
@@ -79,7 +86,7 @@ ul li {
 
 ul a {
     text-decoration: none;
-    color: black;
+    color: #F90E84;
     font-weight: bolder;
     cursor: pointer;
 }
