@@ -42,9 +42,9 @@ h1 {
 .paragraTopBar {
     text-align: center;
     color: var(--profileDescriptionText);
-    font-size: 11px;
-    font-family: "Playwrite DK Uloopet", cursive;
-    font-weight: 400;
+    font-size: 15px;
+    font-family: "Cormorant Upright", serif;
+    font-weight: 300;
 }
 
 .conteudo {
@@ -83,7 +83,7 @@ ul li {
 .iconWhatsapp2::before {
     content: url("../assets/whatsapp.svg");
     float: left;
-    padding-top: 15px;
+    padding-top: 8px;
 }
 
 .iconWhatsapp3::before {
@@ -119,6 +119,7 @@ ul a {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, .37);
+    border-radius: 8px;
 }
 
 .border-top {
